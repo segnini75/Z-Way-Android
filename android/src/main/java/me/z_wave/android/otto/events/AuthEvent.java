@@ -23,7 +23,7 @@
 package me.z_wave.android.otto.events;
 
 import me.z_wave.android.dataModel.LocalProfile;
-import me.z_wave.android.servises.AuthService;
+import me.z_wave.android.services.AuthService;
 
 /**
  * Created by Ivan Pl on 19.10.2014.

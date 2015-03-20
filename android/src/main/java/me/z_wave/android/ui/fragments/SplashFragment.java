@@ -38,9 +38,8 @@ import me.z_wave.android.R;
 import me.z_wave.android.dataModel.LocalProfile;
 import me.z_wave.android.database.DatabaseDataProvider;
 import me.z_wave.android.otto.events.AuthEvent;
-import me.z_wave.android.otto.events.CommitFragmentEvent;
 import me.z_wave.android.otto.events.StartActivityEvent;
-import me.z_wave.android.servises.AuthService;
+import me.z_wave.android.services.AuthService;
 import me.z_wave.android.ui.activity.ProfilesActivity;
 
 /**

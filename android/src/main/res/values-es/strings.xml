@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Z-Way for Android is a UI for Z-Way server
+  ~
+  ~ Created by Ivan Platonov on 25.05.14 19:38.
+  ~ Copyright (c) 2014 Z-Wave.Me
+  ~
+  ~ All rights reserved
+  ~ info@z-wave.me
+  ~ Z-Way for Android is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ Z-Way for Android is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with Z-Way for Android.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <string name="app_name">Z-Way</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="dashboard">Tablero</string>
+    <string name="widgets">Widgets</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="profiles">Perfiles</string>
+    <string name="done">Hecho</string>
+    <string name="edit">Editar</string>
+    <string name="add">Añadir</string>
+
+    <string name="msg_empty_dashboard">
+        El tablero está vacío.\n
+        Puedes llenarlo con los widgets que utilices\n
+        frecuentemente al deslizarlos a la izquierda.
+    </string>
+    <string name="dashboard_remove">Eliminar del panel</string>
+    <string name="dashboard_to_dashboard">Al panel</string>
+    <string name="dashboard_done">Hecho</string>
+
+    <string name="request_server_problem_msg">¡Algo va mal con el servidor!</string>
+    <string name="request_network_problem">¡Algo falla con la conexión de red!</string>
+
+    <string name="filters_rooms">Habitaciones</string>
+    <string name="filters_types">Tipos</string>
+    <string name="filters_tags">Etiquetas</string>
+
+    <string name="empty_msg">Nada encontrado</string>
+    
+    <string name="notification_everything_ok">Todo bien</string>
+    <string name="notification_count">Ud tiene %d notificaciones</string>
+    
+    <string name="profile_auto_switch_location_hint">La aplicación puede cambiar de perfil automaticamente al detectar su ubicación:</string>
+    <string name="profile_auto_switch_location">Cambiar automáticamente</string>
+
+    <string name="profile_name">Nombre</string>
+    <string name="profile_indoor_server">Servidor local</string>
+    <string name="profile_url">url</string>
+    <string name="profile_http">http://</string>
+    <string name="profile_http_hint">Debería verse como 192.168.0.1:8083</string>
+    <string name="profile_credentials">Credenciales remotas</string>
+    <string name="profile_login">Login</string>
+    <string name="profile_password">Password</string>
+    <string name="profile_credentials_hint">Puedes obtener los tuyos desde find.z-wave.me</string>
+    <string name="profile_location">Ubicación</string>
+    <string name="profile_serv_profile">Perfil del Servidor</string>
+    <string name="profile_connecting">Conectando…</string>
+    <string name="profile_delete">Eliminar perfil</string>
+    <string name="profile_connection_established">Conexión establecida</string>
+    <string name="profile_connection_authorized">Autorizado</string>
+    <string name="profile_connection_filed">No puede conectarse a esta URL</string>
+    <string name="profile_changes_are_saved">Cambios guardados.</string>
+    <string name="profile_app_theme_description">Click para elegir el color del tema</string>
+
+    <string name="loading">Cargando…</string>
+    <string name="please_wait">Por favor espere…</string>
+    <string name="attention">¡Atención!</string>
+    <string name="ok">Ok</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="all_devices">Todos los Widgets</string>
+
+    <string name="cancel">Cancelar</string>
+    <string name="connecting_to">Conectándose a %s…</string>
+    
+    <string name="profile_changed">Ha cambiado el perfil actual</string>
+    <string name="profile_changed_to_desc">El perfil actual ha cambiado a %s</string>
+    
+    <string name="switch_binary">Interruptor binario</string>
+    <string name="switch_multilevel">Interruptor multinivel</string>
+    <string name="sensor_multilevel">Sensor multinivel</string>
+    <string name="sensor_binary">Sensor binario</string>
+    <string name="camera">Cámara</string>
+    <string name="battery">Batería</string>
+    <string name="switch_control">interruptor de control</string>
+    <string name="toggle_button">Escena</string>
+    <string name="switch_rgbw">Color</string>
+    <string name="doorlock">Cerradura</string>
+    <string name="thermostat">Termostato</string>
+    
+    <string name="invalid_camera_url">¡La URL de la cámara es inválida!</string>
+
+    <string name="dialog_connection_lose_msg">!Sin conexión a internet!</string>
+    <string name="dialog_connection_lose_close_app">Cerrar aplicación</string>
+    <string name="dialog_connection_lose_settings">Configuración</string>
+    
+    <string name="dialog_color_picker_select_color">Seleccionar color…</string>
+    <string name="dialog_network_scan_hint" formatted="false"> %s/%s escaneados</string>
+    <string name="dialog_network_scan_scanning">Escaneando…</string>
+    
+    <string name="dialog_select_url">Seleccione una URL</string>
+
+    <string name="dialog_select_app_theme">Seleccione un tema</string>
+    <string name="theme_default_name">Turquesa</string>
+    <string name="theme_1_name">Rosado</string>
+    <string name="theme_2_name">Soleado</string>
+    <string name="theme_3_name">Verde</string>
+    <string name="theme_4_name">Chocolate</string>
+</resources>

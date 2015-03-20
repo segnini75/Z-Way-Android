@@ -41,7 +41,7 @@ import me.z_wave.android.database.DatabaseDataProvider;
 import me.z_wave.android.otto.events.ShowAttentionDialogEvent;
 import me.z_wave.android.otto.events.ShowDialogEvent;
 import me.z_wave.android.otto.events.StartActivityEvent;
-import me.z_wave.android.servises.UpdateDeviceService;
+import me.z_wave.android.services.UpdateDeviceService;
 import me.z_wave.android.ui.activity.CameraActivity;
 import me.z_wave.android.ui.adapters.DevicesGridAdapter;
 import me.z_wave.android.ui.dialogs.ColorPickerDialog;

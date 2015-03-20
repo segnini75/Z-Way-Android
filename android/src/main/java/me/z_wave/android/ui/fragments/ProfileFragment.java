@@ -43,7 +43,6 @@ import com.squareup.otto.Subscribe;
 
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -52,23 +51,19 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
 import me.z_wave.android.R;
-import me.z_wave.android.app.Constants;
 import me.z_wave.android.data.NewProfileContext;
 import me.z_wave.android.dataModel.LocalProfile;
 import me.z_wave.android.dataModel.Profile;
-import me.z_wave.android.dataModel.ServerStatus;
 import me.z_wave.android.dataModel.Theme;
 import me.z_wave.android.database.DatabaseDataProvider;
 import me.z_wave.android.network.ApiClient;
-import me.z_wave.android.otto.events.AccountChangedEvent;
 import me.z_wave.android.otto.events.AuthEvent;
 import me.z_wave.android.otto.events.CommitFragmentEvent;
 import me.z_wave.android.otto.events.ProfileUpdatedEvent;
-import me.z_wave.android.otto.events.ProgressEvent;
 import me.z_wave.android.otto.events.ShowAttentionDialogEvent;
 import me.z_wave.android.otto.events.ShowDialogEvent;
 import me.z_wave.android.otto.events.ShowReconnectionProgressEvent;
-import me.z_wave.android.servises.AuthService;
+import me.z_wave.android.services.AuthService;
 import me.z_wave.android.ui.dialogs.ChooseThemeDialog;
 
 public class ProfileFragment extends NetworkScanFragment {

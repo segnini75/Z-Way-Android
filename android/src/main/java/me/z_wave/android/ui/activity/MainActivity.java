@@ -30,7 +30,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import android.provider.Settings;
 import android.support.v4.widget.DrawerLayout;
 
 import com.squareup.otto.Subscribe;
@@ -39,7 +38,6 @@ import javax.inject.Inject;
 
 import me.z_wave.android.R;
 import me.z_wave.android.data.DataContext;
-import me.z_wave.android.database.DatabaseDataProvider;
 import me.z_wave.android.otto.events.CommitFragmentEvent;
 import me.z_wave.android.otto.events.InternetConnectionChangeEvent;
 import me.z_wave.android.otto.events.ProgressEvent;
@@ -48,11 +46,10 @@ import me.z_wave.android.otto.events.ShowDialogEvent;
 import me.z_wave.android.otto.events.ShowReconnectionProgressEvent;
 import me.z_wave.android.otto.events.StartActivityEvent;
 import me.z_wave.android.otto.events.StartStopLocationListeningEvent;
-import me.z_wave.android.servises.AuthService;
-import me.z_wave.android.servises.BindHelper;
-import me.z_wave.android.servises.DataUpdateService;
-import me.z_wave.android.servises.LocationService;
-import me.z_wave.android.servises.NotificationService;
+import me.z_wave.android.services.BindHelper;
+import me.z_wave.android.services.DataUpdateService;
+import me.z_wave.android.services.LocationService;
+import me.z_wave.android.services.NotificationService;
 import me.z_wave.android.ui.dialogs.ConnectionLoseDialog;
 import me.z_wave.android.ui.fragments.MainMenuFragment;
 import me.z_wave.android.ui.fragments.dashboard.DashboardFragment;

@@ -20,7 +20,7 @@
  * along with Z-Way for Android.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.z_wave.android.servises;
+package me.z_wave.android.services;
 
 import com.squareup.otto.Subscribe;
 

@@ -20,7 +20,7 @@
  * along with Z-Way for Android.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package me.z_wave.android.servises;
+package me.z_wave.android.services;
 
 import android.app.IntentService;
 import android.content.Intent;
@@ -32,8 +32,6 @@ import me.z_wave.android.app.ZWayApplication;
 import me.z_wave.android.dataModel.Device;
 import me.z_wave.android.network.ApiClient;
 import retrofit.RetrofitError;
-import retrofit.http.GET;
-import retrofit.http.Path;
 
 public class UpdateDeviceService extends IntentService {
 

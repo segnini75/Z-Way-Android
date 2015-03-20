@@ -123,4 +123,7 @@
     <string name="theme_2_name">Sunny</string>
     <string name="theme_3_name">Green</string>
     <string name="theme_4_name">Chocolate</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="thermostat_alias">Thermostat alias</string>
 </resources>

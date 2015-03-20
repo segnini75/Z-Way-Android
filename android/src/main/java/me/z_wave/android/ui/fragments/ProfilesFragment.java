@@ -50,10 +50,9 @@ import me.z_wave.android.otto.events.ShowAttentionDialogEvent;
 import me.z_wave.android.otto.events.ShowReconnectionProgressEvent;
 import me.z_wave.android.otto.events.StartActivityEvent;
 import me.z_wave.android.otto.events.StartStopLocationListeningEvent;
-import me.z_wave.android.servises.AuthService;
-import me.z_wave.android.servises.LocationService;
+import me.z_wave.android.services.AuthService;
+import me.z_wave.android.services.LocationService;
 import me.z_wave.android.ui.activity.MainActivity;
-import me.z_wave.android.ui.activity.ProfilesActivity;
 import me.z_wave.android.ui.adapters.ProfilesListAdapter;
 
 public class ProfilesFragment extends BaseFragment implements AdapterView.OnItemClickListener, CompoundButton.OnCheckedChangeListener {

@@ -27,7 +27,6 @@ import android.text.TextUtils;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.webkit.URLUtil;
 
 import org.apache.http.cookie.Cookie;
 
@@ -37,13 +36,12 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
 import me.z_wave.android.R;
-import me.z_wave.android.app.Constants;
 import me.z_wave.android.dataModel.Device;
 import me.z_wave.android.dataModel.LocalProfile;
 import me.z_wave.android.dataModel.Metrics;
 import me.z_wave.android.database.DatabaseDataProvider;
 import me.z_wave.android.network.ApiClient;
-import me.z_wave.android.servises.UpdateDeviceService;
+import me.z_wave.android.services.UpdateDeviceService;
 import me.z_wave.android.ui.views.mjpegView.MjpegView;
 import me.z_wave.android.utils.CameraUtils;
 

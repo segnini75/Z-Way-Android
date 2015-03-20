@@ -22,7 +22,6 @@
 
 package me.z_wave.android.ui.dialogs;
 
-import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -33,9 +32,6 @@ import com.larswerkman.holocolorpicker.ColorPicker;
 import com.larswerkman.holocolorpicker.SVBar;
 
 import me.z_wave.android.R;
-import me.z_wave.android.dataModel.Device;
-import me.z_wave.android.dataModel.DeviceRgbColor;
-import me.z_wave.android.servises.UpdateDeviceService;
 
 /**
  * Created by Ivan Pl on 25.10.2014.
